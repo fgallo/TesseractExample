@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A29CDB64181769CD0010E761 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29CDB63181769CD0010E761 /* Cocoa.framework */; };
+		A29CDB6E181769CD0010E761 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A29CDB6C181769CD0010E761 /* InfoPlist.strings */; };
+		A29CDB70181769CD0010E761 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A29CDB6F181769CD0010E761 /* main.m */; };
+		A29CDB74181769CD0010E761 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A29CDB72181769CD0010E761 /* Credits.rtf */; };
+		A29CDB77181769CD0010E761 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A29CDB76181769CD0010E761 /* AppDelegate.m */; };
+		A29CDB7A181769CE0010E761 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A29CDB78181769CE0010E761 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A29CDB60181769CD0010E761 /* TesseractExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesseractExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29CDB63181769CD0010E761 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A29CDB66181769CD0010E761 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A29CDB67181769CD0010E761 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A29CDB68181769CD0010E761 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A29CDB6B181769CD0010E761 /* TesseractExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TesseractExample-Info.plist"; sourceTree = "<group>"; };
+		A29CDB6D181769CD0010E761 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A29CDB6F181769CD0010E761 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A29CDB71181769CD0010E761 /* TesseractExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TesseractExample-Prefix.pch"; sourceTree = "<group>"; };
+		A29CDB73181769CD0010E761 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A29CDB75181769CD0010E761 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A29CDB76181769CD0010E761 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A29CDB79181769CE0010E761 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A29CDB5D181769CD0010E761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29CDB64181769CD0010E761 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A29CDB57181769CD0010E761 = {
+			isa = PBXGroup;
+			children = (
+				A29CDB69181769CD0010E761 /* TesseractExample */,
+				A29CDB62181769CD0010E761 /* Frameworks */,
+				A29CDB61181769CD0010E761 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A29CDB61181769CD0010E761 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A29CDB60181769CD0010E761 /* TesseractExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A29CDB62181769CD0010E761 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A29CDB63181769CD0010E761 /* Cocoa.framework */,
+				A29CDB65181769CD0010E761 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A29CDB65181769CD0010E761 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A29CDB66181769CD0010E761 /* AppKit.framework */,
+				A29CDB67181769CD0010E761 /* CoreData.framework */,
+				A29CDB68181769CD0010E761 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A29CDB69181769CD0010E761 /* TesseractExample */ = {
+			isa = PBXGroup;
+			children = (
+				A29CDB75181769CD0010E761 /* AppDelegate.h */,
+				A29CDB76181769CD0010E761 /* AppDelegate.m */,
+				A29CDB78181769CE0010E761 /* MainMenu.xib */,
+				A29CDB6A181769CD0010E761 /* Supporting Files */,
+			);
+			path = TesseractExample;
+			sourceTree = "<group>";
+		};
+		A29CDB6A181769CD0010E761 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A29CDB6B181769CD0010E761 /* TesseractExample-Info.plist */,
+				A29CDB6C181769CD0010E761 /* InfoPlist.strings */,
+				A29CDB6F181769CD0010E761 /* main.m */,
+				A29CDB71181769CD0010E761 /* TesseractExample-Prefix.pch */,
+				A29CDB72181769CD0010E761 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A29CDB5F181769CD0010E761 /* TesseractExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29CDB7D181769CE0010E761 /* Build configuration list for PBXNativeTarget "TesseractExample" */;
+			buildPhases = (
+				A29CDB5C181769CD0010E761 /* Sources */,
+				A29CDB5D181769CD0010E761 /* Frameworks */,
+				A29CDB5E181769CD0010E761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TesseractExample;
+			productName = TesseractExample;
+			productReference = A29CDB60181769CD0010E761 /* TesseractExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A29CDB58181769CD0010E761 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Fernando Gallo";
+			};
+			buildConfigurationList = A29CDB5B181769CD0010E761 /* Build configuration list for PBXProject "TesseractExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A29CDB57181769CD0010E761;
+			productRefGroup = A29CDB61181769CD0010E761 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A29CDB5F181769CD0010E761 /* TesseractExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A29CDB5E181769CD0010E761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29CDB6E181769CD0010E761 /* InfoPlist.strings in Resources */,
+				A29CDB74181769CD0010E761 /* Credits.rtf in Resources */,
+				A29CDB7A181769CE0010E761 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A29CDB5C181769CD0010E761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29CDB70181769CD0010E761 /* main.m in Sources */,
+				A29CDB77181769CD0010E761 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A29CDB6C181769CD0010E761 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A29CDB6D181769CD0010E761 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A29CDB72181769CD0010E761 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A29CDB73181769CD0010E761 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A29CDB78181769CE0010E761 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A29CDB79181769CE0010E761 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A29CDB7B181769CE0010E761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A29CDB7C181769CE0010E761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A29CDB7E181769CE0010E761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TesseractExample/TesseractExample-Prefix.pch";
+				INFOPLIST_FILE = "TesseractExample/TesseractExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A29CDB7F181769CE0010E761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TesseractExample/TesseractExample-Prefix.pch";
+				INFOPLIST_FILE = "TesseractExample/TesseractExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A29CDB5B181769CD0010E761 /* Build configuration list for PBXProject "TesseractExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29CDB7B181769CE0010E761 /* Debug */,
+				A29CDB7C181769CE0010E761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29CDB7D181769CE0010E761 /* Build configuration list for PBXNativeTarget "TesseractExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29CDB7E181769CE0010E761 /* Debug */,
+				A29CDB7F181769CE0010E761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A29CDB58181769CD0010E761 /* Project object */;
+}
